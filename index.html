@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,14 +26,10 @@
         .garamond {
             font-family: "EB Garamond", serif;
             font-optical-sizing: auto;
-            font-weight: <weight>;
-            font-style: normal;
         }
 
         .banner {
-            background-image: url(images/banner.png);
-            width: 100%;
-            height: 100%;
+            background-image:  linear-gradient(180deg, rgba(0, 0, 0, 0.151) ,rgba(0, 0, 0, 0.393)),url(images/banner.png);
         }
      </style>
 
@@ -139,7 +135,7 @@
 
         <!-- Banner -->
          <nav class="md:container mx-auto lg:px-32 mb-12">
-            <div class="hero banner w-full rounded-lg py-32 px-20">
+            <div class="hero banner bg-blend-multiply-black w-full rounded-lg py-32 px-20">
                 <div class="hero-content text-center">
                   <div>
                     <h1 class="garamond text-6xl font-bold text-white">We Provide Effective <br> Legal Solutions</h1>
@@ -233,18 +229,99 @@
          </section>
 
         <!-- Clients Say Section -->
-         <section>
-
+         <section >
+          
          </section>
 
         <!-- FAQ Section -->
-         <section>
+         <section class="md:container mx-auto lg:px-32 py-12">
+          <div class="text-center mb-10">
+            <h3 class="garamond text-4xl font-black">Frequently Asked Any Questions</h3>
+            <p class="py-5 text-gray-500">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
+          </div>
 
+          <div class="flex justify-center">
+
+            <div class="ml-20">
+              <div tabindex="0" class="collapse collapse-plus border-base-300 bg-base-200 border mb-5 w-[70%]">
+                <div class="collapse-title text-xl font-medium">1. Are application fee waivers available?</div>
+                <div class="collapse-content">
+                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, . </p>
+                </div>
+              </div>
+              <div tabindex="0" class="collapse collapse-plus border-base-300 bg-base-200 border mb-5 w-[70%]">
+                <div class="collapse-title text-xl font-medium">1. Are application fee waivers available?</div>
+                <div class="collapse-content">
+                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, . </p>
+                </div>
+              </div>
+              <div tabindex="0" class="collapse collapse-plus border-base-300 bg-base-200 border mb-5 w-[70%]">
+                <div class="collapse-title text-xl font-medium">1. Are application fee waivers available?</div>
+                <div class="collapse-content">
+                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, . </p>
+                </div>
+              </div>
+              <div tabindex="0" class="collapse collapse-plus border-base-300 bg-base-200 border mb-5 w-[70%]">
+                <div class="collapse-title text-xl font-medium">1. Are application fee waivers available?</div>
+                <div class="collapse-content">
+                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, . </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mr-20"><img src="images/faq.png" alt="" class="w-full"></div>
+
+          </div>
+            
          </section>
 
         <!-- Contact Us Section -->
-         <section>
+         <section class="md:container mx-auto lg:px-32 py-12">
+          <div class="text-center mb-10">
+            <h3 class="garamond text-4xl font-black">Contact With Us</h3>
+            <p class="py-5 text-gray-500">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
+          </div>
 
+          <div class="grid grid-cols-2 gap-8 items-center">
+            <!-- cards -->
+              <div class="grid grid-cols-2">
+                <div class="space-y-2 py-10 flex flex-col items-center border text-center bg-gradient-to-b from-gray-100 to-white">
+                  <img src="images/location.png" alt="" >
+                  <h4 class="text-xl garamond font-bold">Address</h4>
+                  <p class="text-gray-500">A108 Adam Street, <br>
+                    New York, NY 535022</p>            
+                </div>
+                <div class="space-y-2 py-10 flex flex-col items-center border text-center bg-gradient-to-b from-gray-100 to-white">
+                  <img src="images/call.png" alt="" >
+                  <h4 class="text-xl garamond font-bold">Call Us</h4>
+                  <p class="text-gray-500">+88 01750 00 00 00 <br>
+                    +88 01750 00 00 00</p>            
+                </div>
+                <div class="space-y-2 py-10 flex flex-col items-center border text-center bg-gradient-to-b from-gray-100 to-white">
+                  <img src="images/email.png" alt="" >
+                  <h4 class="text-xl garamond font-bold">Email Us</h4>
+                  <p class="text-gray-500">info@gmail.com <br>
+                    info@gmail.com</p>            
+                </div>
+                <div class="space-y-2 py-10 flex flex-col items-center border text-center bg-gradient-to-b from-gray-100 to-white">
+                  <img src="images/time.png" alt="" >
+                  <h4 class="text-xl garamond font-bold">Working Hours</h4>
+                  <p class="text-gray-500">Mon-Fri: 9AM to 5PM <br>
+                    Sunday: 9AM to 1 PM</p>            
+                </div>
+
+              </div>
+
+              <!-- inputs -->
+               <div class="flex flex-col gap-5">
+                <input type="text" placeholder="Your Name" class="input input-bordered w-full " />
+                <input type="text" placeholder="Your Email" class="input input-bordered w-full " />
+                <input type="text" placeholder="Subject" class="input input-bordered w-full " />
+                <textarea class="textarea textarea-bordered h-[143px]" placeholder="Your Message"></textarea>
+                <button class="btn bg-customBrown text-white">Send Message</button>
+               </div>
+
+          </div>
          </section>
 
      </main>
