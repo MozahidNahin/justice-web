@@ -229,8 +229,44 @@
          </section>
 
         <!-- Clients Say Section -->
-         <section >
-          
+         <section class="md:container mx-auto lg:px-32 py-12">
+          <div class="text-center mb-10">
+            <h3 class="garamond text-4xl font-black">What Our Client Say</h3>
+            <p class="py-5 text-gray-500">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
+          </div>
+          <div>
+            <div class="carousel w-full">
+              <div id="item1" class="carousel-item w-full text-white rounded-lg" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/slider-1.jpg');">
+                <div class="flex flex-col text-center items-center space-y-1 px-40 py-32">
+                  <img src="images/lawyer.jpg" alt="" class="rounded-full w-[95px] h-[95px] mb-4 border">
+                  <h5 class="garamond text-2xl font-bold">Jessica Roy</h5>
+                  <p class="text-gray-300">Criminal Lawyer</p>
+                  <p class="pt-14 text-gray-300">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+                </div>
+              </div>
+              <div id="item2" class="carousel-item w-full text-white rounded-lg"  style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/slider-3.jpg');">
+                <div class="flex flex-col text-center items-center space-y-1 px-40 py-32">
+                  <img src="images/lawyer.jpg" alt="" class="rounded-full w-[95px] h-[95px] mb-4 border">
+                  <h5 class="garamond text-2xl font-bold">Jessica Roy</h5>
+                  <p class="text-gray-300">Criminal Lawyer</p>
+                  <p class="pt-14 text-gray-300">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+                </div>
+              </div>
+              <div id="item3" class="carousel-item w-full text-white rounded-lg" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/slider-1.jpg');">
+                <div class="flex flex-col text-center items-center space-y-1 px-40 py-32">
+                  <img src="images/lawyer.jpg" alt="" class="rounded-full w-[95px] h-[95px] mb-4 border">
+                  <h5 class="garamond text-2xl font-bold">Jessica Roy</h5>
+                  <p class="text-gray-300">Criminal Lawyer</p>
+                  <p class="pt-14 text-gray-300">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+                </div>
+              </div>
+            </div>
+            <div class="flex w-full justify-center gap-4 py-2">
+              <a href="#item1" class="btn btn-xs px-3 bg-customBrown"></a>
+              <a href="#item2" class="btn btn-xs px-3 bg-customBrown"></a>
+              <a href="#item3" class="btn btn-xs px-3 bg-customBrown"></a>
+            </div>
+          </div>
          </section>
 
         <!-- FAQ Section -->
@@ -285,25 +321,25 @@
           <div class="grid grid-cols-2 gap-8 items-center">
             <!-- cards -->
               <div class="grid grid-cols-2">
-                <div class="space-y-2 py-10 flex flex-col items-center border text-center bg-gradient-to-b from-gray-100 to-white">
+                <div class="space-y-2 py-12 flex flex-col items-center border text-center bg-gradient-to-b from-gray-100 to-white">
                   <img src="images/location.png" alt="" >
                   <h4 class="text-xl garamond font-bold">Address</h4>
                   <p class="text-gray-500">A108 Adam Street, <br>
                     New York, NY 535022</p>            
                 </div>
-                <div class="space-y-2 py-10 flex flex-col items-center border text-center bg-gradient-to-b from-gray-100 to-white">
+                <div class="space-y-2 py-12 flex flex-col items-center border text-center bg-gradient-to-b from-gray-100 to-white">
                   <img src="images/call.png" alt="" >
                   <h4 class="text-xl garamond font-bold">Call Us</h4>
                   <p class="text-gray-500">+88 01750 00 00 00 <br>
                     +88 01750 00 00 00</p>            
                 </div>
-                <div class="space-y-2 py-10 flex flex-col items-center border text-center bg-gradient-to-b from-gray-100 to-white">
+                <div class="space-y-2 py-12 flex flex-col items-center border text-center bg-gradient-to-b from-gray-100 to-white">
                   <img src="images/email.png" alt="" >
                   <h4 class="text-xl garamond font-bold">Email Us</h4>
                   <p class="text-gray-500">info@gmail.com <br>
                     info@gmail.com</p>            
                 </div>
-                <div class="space-y-2 py-10 flex flex-col items-center border text-center bg-gradient-to-b from-gray-100 to-white">
+                <div class="space-y-2 py-12 flex flex-col items-center border text-center bg-gradient-to-b from-gray-100 to-white">
                   <img src="images/time.png" alt="" >
                   <h4 class="text-xl garamond font-bold">Working Hours</h4>
                   <p class="text-gray-500">Mon-Fri: 9AM to 5PM <br>
@@ -327,8 +363,43 @@
      </main>
 
     <!-- Footer Part -->
-     <footer>
-        
-     </footer>
+    <footer class="footer text-white flex justify-between bg-black text-base-content px-32 py-32">
+      <aside class="space-y-5">
+        <img src="images/logo.png" alt="">
+        <p>
+          There are many variations of <br> passages of Lorem Ipsum <br> available, but the majority have <br> suffered alteration in some form, <br> by injected humour.
+        </p>
+      </aside>
+      <nav class="space-y-5">
+        <h6 class="garamond text-xl font-bold">Usefull Link</h6>
+        <a class="link link-hover">Home</a>
+        <a class="link link-hover">About Us</a>
+        <a class="link link-hover">Cases</a>
+        <a class="link link-hover">Contact Us</a>
+      </nav>
+      <nav class="space-y-5">
+        <h6 class="garamond text-xl font-bold">Contact Now</h6>
+        <a class="link link-hover">555 4th 5t NW, Washington <br>
+          DC 20530, United States</a>
+        <a class="link link-hover">+88 01750 000 000 <br>
+          +88 01750 000 000</a>
+        <a class="link link-hover">info@gmail.com <br>
+          info@gmail.com</a>
+      </nav>
+      <nav class="space-y-5">
+        <h6 class="garamond text-xl font-bold">Subscribe</h6>
+        <a class="link link-hover">Subscribe for our latest & <br> Articles. We Won’t Give You <br> Spam Mails</a>
+        <div class="join">
+          <input
+            type="text"
+            placeholder="Email Address"
+            class="input input-bordered join-item" />
+          <button class="btn bg-customBrown border-none join-item"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5" />
+          </svg>
+          </button>
+        </div>
+      </nav>
+    </footer>
 </body>
 </html>
